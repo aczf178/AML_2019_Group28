@@ -13,7 +13,7 @@ Momentum adds a fraction of the past weight update to the current weight update 
 
 All Vanilla Gradient Descents are running at 1000 iterations
 Step size 0.00005
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+
 
 Step size 0.0001
  
