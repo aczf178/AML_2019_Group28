@@ -29,6 +29,7 @@ Step size 0.0001
 
 
 Step size 0.0005
+
 ![image](https://user-images.githubusercontent.com/51364655/60811646-a60c6d80-a187-11e9-8db7-0986ad0ce675.png)
 
 The most suitable step size is 0.0001 with the smallest value of y suggesting an approx. global minimum 
