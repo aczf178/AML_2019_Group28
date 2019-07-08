@@ -15,25 +15,30 @@ Momentum adds a fraction of the past weight update to the current weight update 
 
 All Vanilla Gradient Descents are running at 1000 iterations
 Step size 0.00005 
+
 ![image](https://user-images.githubusercontent.com/51364655/60811672-b1f82f80-a187-11e9-8445-08cf9352fdc9.png)
 
 
 Step size 0.0001
+
 ![image](https://user-images.githubusercontent.com/51364655/60811420-1c5ca000-a187-11e9-8531-6a4e6d6c7319.png)
 
 
 Step size 0.0005
 ![image](https://user-images.githubusercontent.com/51364655/60811646-a60c6d80-a187-11e9-8db7-0986ad0ce675.png)
+
 The most suitable step size is 0.0001 with the smallest value of y suggesting an approx. global minimum 
 (-9.031, 0.816, 0.920).
 
 
 Variant one – Stochastic Gradient Descent with step size 0.0001 and 10000 iterations
 ![image](https://user-images.githubusercontent.com/51364655/60811932-3a76d000-a188-11e9-8668-f76e852fe5a6.png)
+
 It illustrates a smaller value of y, hence it’s descending further more suggesting an approx. global minimum (-9.015, 0.813, 0.361).
 
 Variant two – Momentum Gradient Descent with step size 0.0001 and 1000 iterations
 ![image](https://user-images.githubusercontent.com/51364655/60811964-4febfa00-a188-11e9-890e-5ee0078b65ef.png)
+
 Unfortunately, it shows a greater value of y than Stochastic Gradient Descent and Vanilla Gradient Descent for step size 0.0001 suggesting an approx. global minimum (-9.129, 0.833, 1.047)
 
 In conclusion, Stochastic Gradient Descent with step size 0.0001 and 10000 iterations shows a point that is closest to the global minimum.
