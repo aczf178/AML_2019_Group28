@@ -10,8 +10,12 @@ However, the downfall is that there are local minimums and a global minimum, whi
 	
 Stochastic Gradient Descent takes a shuffled set of data, compute the derivative and make an update to the parameters for every point, the network would reach the minimum more efficiently.
 Momentum adds a fraction of the past weight update to the current weight update leading the step size to change and alter its direction. This helps to prevent the network stuck in a local minima even the current gradient is zero. Hence movements along the error surface will be smoother and network can move more quickly throughout it. 
-![image](https://user-images.githubusercontent.com/51364655/60812020-79a52100-a188-11e9-957d-1cb1c994cedf.png)
+We are using the beneath function to work out Gradient Descent.
+![image](https://user-images.githubusercontent.com/51364655/60812540-a73e9a00-a189-11e9-8e5a-ecbb5d1e2da0.png)
 
+
+
+![image](https://user-images.githubusercontent.com/51364655/60812020-79a52100-a188-11e9-957d-1cb1c994cedf.png)
 
 All Vanilla Gradient Descents are running at 1000 iterations
 Step size 0.00005 
